@@ -2,6 +2,7 @@
 #include <sys/resource.h>
 
 int main() {
+	// Start of code
     struct rlimit lim;
     printf("stack size: %ld\n", 0L);
     printf("process limit: %ld\n", 0L);
